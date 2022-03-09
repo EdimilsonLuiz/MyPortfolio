@@ -148,6 +148,7 @@ nav.active .menu{
   display: flex;
   padding: 15px;
   background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,9));
+
   height: 90vh;
 
 }
@@ -176,11 +177,17 @@ nav.active .menu{
   color: #f7b902;
 }
 
+.container-social{
+  display: flex;
+  justify-content: left;
+}
+
 .social{
   font-weight: 400;
   padding-left: 15px;
   display: flex;
   align-items: center;
+  
   
   
 }
@@ -227,6 +234,7 @@ nav.active .menu{
 
  
   .introducao{
+ 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
